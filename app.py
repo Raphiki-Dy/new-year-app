@@ -11,8 +11,8 @@ st.markdown("""
         color: red;
     }
     .stButton>button {
-            background-color: black;
-            color: white;
+            background-color: white;
+            color: black;
             border-radius: 10px;
             font-weight:bold;
         }
@@ -51,3 +51,4 @@ elif st.session_state.page == 'dashboard':
     if st.button("incase your eye dey pain click make you go back the first page"):
         st.session_state.page = 'home'
         st.rerun()
+
